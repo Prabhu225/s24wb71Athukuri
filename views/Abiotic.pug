@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1 This is Abiotic Page
+  -
+    let results = [
+      { name: 'Gold', type: 'Metal', age: 20 },
+      { name: 'Silver', type: 'Metal;', age: 25 },
+      { name: 'Platinum', type: 'Metal', age: 125 }
+    ]
+
+  .container-fluid
+    .row
+      each item, index in results
+        .col-sm-2
+          .search-result(onclick=`buy(${index})`) 
+            h6 Name: #{item.name}
+            h6 Type: #{item.type}
+            h6 Age: #{item.age}
+
+  a(href="/") Back to index page
+
+  script.
+    function buy(index) {
+      alert("You purchased item " + index);
+    }
