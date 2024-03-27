@@ -4,9 +4,9 @@ block content
   h1 This is Abiotic Page
   -
     let results = [
-      { name: 'Gold', type: 'Metal', age: 20 },
-      { name: 'Silver', type: 'Metal;', age: 25 },
-      { name: 'Platinum', type: 'Metal', age: 125 }
+      { name: 'Gold', type: 'Metal', cost : 20000 },
+      { name: 'Silver', type: 'Metal;', cost: 25000 },
+      { name: 'Platinum', type: 'Metal', cost : 125000 }
     ]
 
   .container-fluid
@@ -16,7 +16,7 @@ block content
           .search-result(onclick=`buy(${index})`) 
             h6 Name: #{item.name}
             h6 Type: #{item.type}
-            h6 Age: #{item.age}
+            h6 cost: #{item.cost}
 
   a(href="/") Back to index page
 
