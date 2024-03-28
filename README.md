@@ -1,6 +1,11 @@
 # s24wb71Athukuri
 Hi this is prabhu kumar <br>
 Render link : https://s24wb71athukuri.onrender.com
+<br>https://s24wb71athukuri.onrender.com/pick
+<br>https://s24wb71athukuri.onrender.com/Abiotic
+<br>https://s24wb71athukuri.onrender.com/grid?rows=5&cols=6
+
+
 <br>
 **Class Name - Abiotic **
 
